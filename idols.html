@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <title>K/DA: Idols</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            color: rgb(35, 30, 48);
-            background-color: #000000;
-        }
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #000000;
+      }
 
-        .navbar {
-            width: 100%;
-            overflow: auto;
-        }
+      .navbar {
+          width: 100%;
+          overflow: auto;
+      }
 
-        .navbar a {
-            margin-right: 30px;
-            float: right;
-            padding: 12px;
-            color: #b6bdf8;
-            text-decoration: none;
-            font-size: 17px;
-        }
+      .navbar a {
+          margin-right: 30px;
+          float: right;
+          padding: 12px;
+          color: #b6bdf8;
+          text-decoration: none;
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 17px;
+      }
 
         .navbar a:hover {
             color: rgba(122, 147, 202, 0.879)
@@ -41,15 +42,11 @@
             margin-right: 20px;
         }
         .column {
+            float: left;
             width: 20%;
             margin-bottom: 16px;
             margin-left: 30px;
             padding: 0 13px;
-        }
-
-        .row {
-          display: flex;
-          justify-content: space-around;
         }
 
         .card {
@@ -65,7 +62,7 @@
         .container::after, .row::after {
             content: "";
             clear: both;
-            display: flex;
+            display: table;
         }
 
         .title {
