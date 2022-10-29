@@ -53,6 +53,11 @@
             box-shadow: 0 4px 8px 0 rgb(36, 12, 123);
         }
 
+        .row {
+          display: flex;
+          justify-content: space-around;
+        }
+
         .container {
             padding: 0 16px;
         }
@@ -60,7 +65,7 @@
         .container::after, .row::after {
             content: "";
             clear: both;
-            display: table;
+            display: flex;
         }
 
         .title {
